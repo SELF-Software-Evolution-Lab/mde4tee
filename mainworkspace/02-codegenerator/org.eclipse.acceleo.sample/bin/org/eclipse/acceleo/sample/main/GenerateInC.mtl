@@ -1,0 +1,81 @@
+[comment encoding = UTF-8 /]
+[module GenerateInC('http://www.eclipse.org/sirius/sample/basictee')]
+
+[template public generateElement(anIntegrationSolution : IntegrationSolution)]
+    [comment @main template /]
+    
+    [generateSecureApp(anIntegrationSolution)/]
+    [generateLauncher(anIntegrationSolution)/]
+[/template]
+
+[template private generateSecureApp(anIntegrationSolution : IntegrationSolution)]
+[file ('fuentes/'+anIntegrationSolution.name.concat('_secure_app.c'), false, 'UTF-8')]
+
+/* -------------------------------------------------- */
+/*              SECURE APPLICATION                   */
+/* Generated from IntegrationSolution: [anIntegrationSolution.name/] */
+/* -------------------------------------------------- */
+
+#include <stdio.h>
+
+[comment Secure Memory Compartments /]
+[if anIntegrationSolution.tee.memorycompartment->size() > 0]
+    [for (memComp : MemoryCompartment | anIntegrationSolution.tee.memorycompartment)]
+/* Memory Compartment: [memComp.name/] */
+
+typedef struct {
+    int id;
+	char name[ '[' /][50/][ ']' /];
+} [memComp.name.toUpperFirst()/]_t;
+
+/* Example variable for memory compartment */
+[memComp.name.toUpperFirst()/]_t [memComp.name.toLowerFirst()/] = { [memComp.id/], "[memComp.name/]" };
+
+    [/for]
+[/if]
+
+[comment Ports inside Memory Compartments /]
+[for (memComp : MemoryCompartment | anIntegrationSolution.tee.memorycompartment)]
+    [if memComp.integrationprocess.ports->size() > 0]
+        [for (p : Port | memComp.integrationprocess.ports)]
+/* Port: [p.type/] (ID: [p.id/]) */
+void handle_[p.type/](void) {
+    // TODO: Implement Port [p.type/]
+}
+        [/for]
+    [/if]
+[/for]
+
+/* End of Secure App */
+
+[/file]
+[/template]
+
+[template private generateLauncher(anIntegrationSolution : IntegrationSolution)]
+[file ('fuentes/'+anIntegrationSolution.name.concat('_launcher.c'), false, 'UTF-8')]
+
+/* -------------------------------------------------- */
+/*                NON-SECURE LAUNCHER                 */
+/* Generated from IntegrationSolution: [anIntegrationSolution.name/] */
+/* -------------------------------------------------- */
+
+#include <stdio.h>
+
+/* Integration Process */
+[if anIntegrationSolution.tee.memorycompartment.integrationprocess <> null]
+/* Integration Process: [anIntegrationSolution.tee.memorycompartment.integrationprocess.name/] */
+[/if]
+
+int main() {
+    printf("Launching secure application...\n");
+    
+    // TODO: Initialize communication with secure app
+
+    return 0;
+}
+
+/* End of Launcher */
+
+[/file]
+[/template]
+
