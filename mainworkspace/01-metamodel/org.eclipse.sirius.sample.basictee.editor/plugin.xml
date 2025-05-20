@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated basictee -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.eclipse.sirius.sample.basictee.presentation.BasicteeModelWizardID"
+            name="%_UI_BasicteeModelWizard_label"
+            class="org.eclipse.sirius.sample.basictee.presentation.BasicteeModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/BasicteeModelFile.gif">
+         <description>%_UI_BasicteeModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated basictee -->
+      <editor
+            id="org.eclipse.sirius.sample.basictee.presentation.BasicteeEditorID"
+            name="%_UI_BasicteeEditor_label"
+            icon="icons/full/obj16/BasicteeModelFile.gif"
+            extensions="basictee"
+            class="org.eclipse.sirius.sample.basictee.presentation.BasicteeEditor"
+            contributorClass="org.eclipse.sirius.sample.basictee.presentation.BasicteeActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

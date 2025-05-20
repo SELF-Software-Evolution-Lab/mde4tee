@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basictee:IntegrationSolution
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:basictee="http://www.eclipse.org/sirius/sample/basictee"
+    name="IntegrationSolution"
+    description="This is a solution to write .c files to be executed in a Morello Board">
+  <tee boardType="Morello"
+      os="CheriBSD"
+      hardwareInfo="Computer located in Toronto, Canada">
+    <status
+        name="Non Secure Program"
+        integrationprocess="//@tee/@memorycompartment/@integrationprocess">
+      <ports
+          id="2"
+          type="IN"
+          connections="//@tee/@memorycompartment/@integrationprocess/@ports.0"/>
+    </status>
+    <memorycompartment
+        id="1"
+        name="SecureProgram">
+      <integrationprocess
+          name="Secure Integration Process"
+          launcher="//@tee/@status">
+        <ports
+            id="1"
+            type="IN"
+            connections="//@tee/@status/@ports.0"/>
+      </integrationprocess>
+    </memorycompartment>
+  </tee>
+</basictee:IntegrationSolution>
