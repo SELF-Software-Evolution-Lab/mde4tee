@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="basictee" version="12.0.0.2017041100">
+  <ownedViewpoints name="integrationSolution" modelFileExtension="basictee">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="IntegrationSolution" domainClass="basictee::IntegrationSolution" enablePopupBars="true">
+      <metamodel href="http://www.eclipse.org/sirius/sample/basictee#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="TeeNode" domainClass="basictee::Tee">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="feature:boardType" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Tee.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="LauncherNode" domainClass="basictee::Launcher">
+          <borderedNodeMappings name="Port" semanticCandidatesExpression="feature:eAllContents" domainClass="basictee::Port">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="2" showIcon="false" labelExpression="feature:type" hideLabelByDefault="true" sizeComputationExpression="0,5" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Launcher.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MemoryCompartmentNode" domainClass="basictee::MemoryCompartment">
+          <borderedNodeMappings name="IntegrationProcess" semanticCandidatesExpression="feature:eAllContents" domainClass="basictee::IntegrationProcess">
+            <borderedNodeMappings name="Port" semanticCandidatesExpression="feature:eAllContents" domainClass="basictee::Port">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="2" showIcon="false" labelExpression="feature:type" sizeComputationExpression="0,5" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="2" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/IntegrationProcess.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/MemoryCompartment.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ServiceNode" domainClass="basictee::Service">
+          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Service.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="TeeMemory" sourceMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='TeeNode']" targetMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']" targetFinderExpression="feature:memorycompartment">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="TeeLauncher" sourceMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='TeeNode']" targetMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']" targetFinderExpression="feature:status">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="LauncherService" sourceMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']" targetMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='ServiceNode']" targetFinderExpression="feature:service">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="IntegrationService" sourceMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@borderedNodeMappings[name='IntegrationProcess']" targetMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='ServiceNode']" targetFinderExpression="feature:service">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Test" sourceMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@borderedNodeMappings[name='IntegrationProcess']/@borderedNodeMappings[name='Port']" targetMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']/@borderedNodeMappings[name='Port']" targetFinderExpression="feature:connections">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="TeeNode" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='TeeNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="basictee::Tee" referenceName="tee"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ServiceNode" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='ServiceNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="basictee::Service" referenceName="service">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'service'+container.service->filter(basictee::Service)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="LauncherNode" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="basictee::Launcher" referenceName="status"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="MemoryCompartmentNode" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="basictee::MemoryCompartment" referenceName="memorycompartment"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="IntegrationSolutionComp" domainClass="basictee::IntegrationSolution" enablePopupBars="true">
+      <metamodel href="http://www.eclipse.org/sirius/sample/basictee#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="PortConnection" synchronizationLock="true" sourceMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']/@subContainerMappings[name='IntegrationProcessContainer']/@subNodeMappings[name='PortNode']" targetMapping="//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='LauncherContainer']/@subNodeMappings[name='PortNode']" targetFinderExpression="feature:connections">
+          <style sizeComputationExpression="2" routingStyle="manhattan" foldingStyle="SOURCE" endsCentering="Source">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="MorelloContainer" synchronizationLock="true" domainClass="basictee::Tee" childrenPresentation="HorizontalStack">
+          <subContainerMappings name="MemoryCompartmentContainer" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="basictee::MemoryCompartment" childrenPresentation="HorizontalStack">
+            <subContainerMappings name="IntegrationProcessContainer" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="basictee::IntegrationProcess" childrenPresentation="List">
+              <subNodeMappings name="PortNode" semanticCandidatesExpression="feature:eAllContents" domainClass="basictee::Port">
+                <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:id" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelFormat>bold</labelFormat>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="LauncherContainer" semanticCandidatesExpression="feature:eAllContents" synchronizationLock="true" domainClass="basictee::Launcher" childrenPresentation="List">
+            <subNodeMappings name="PortNode" semanticCandidatesExpression="feature:eAllContents" domainClass="basictee::Port">
+              <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:id" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="14" labelExpression="feature:boardType">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="ServiceContainer" synchronizationLock="true" domainClass="basictee::Service" childrenPresentation="List">
+          <subNodeMappings name="PortNode" semanticCandidatesExpression="feature:eAllContents" domainClass="basictee::Port">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:id" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="14">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_purple']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.eclipse.sirius.sample.basictee.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

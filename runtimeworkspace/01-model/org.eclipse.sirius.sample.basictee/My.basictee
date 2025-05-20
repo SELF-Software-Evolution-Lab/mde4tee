@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basictee:IntegrationSolution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:basictee="http://www.eclipse.org/sirius/sample/basictee">
+  <tee>
+    <status name="Launcher">
+      <ports id="2" connections="//@tee/@memorycompartment/@integrationprocess/@ports.0 //@services.0/@ports.0"/>
+    </status>
+    <memorycompartment name="MemoryCompartment">
+      <integrationprocess name="IntegrationProcess">
+        <ports id="1" connections="//@tee/@status/@ports.0 //@services.0/@ports.0"/>
+      </integrationprocess>
+    </memorycompartment>
+  </tee>
+  <services name="Service 1">
+    <ports id="3" connections="//@tee/@memorycompartment/@integrationprocess/@ports.0 //@tee/@status/@ports.0"/>
+  </services>
+</basictee:IntegrationSolution>

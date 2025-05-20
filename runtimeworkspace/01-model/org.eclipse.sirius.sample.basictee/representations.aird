@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basictee="http://www.eclipse.org/sirius/sample/basictee" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_1Rk9IAmaEfCJ9Pti9ZFtOA" selectedViews="_5oujkAmaEfCJ9Pti9ZFtOA" version="15.4.1.202403191723">
+    <semanticResources>My.basictee</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_5oujkAmaEfCJ9Pti9ZFtOA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-0alUAmaEfCJ9Pti9ZFtOA" name="new IntegrationSolution" repPath="#_-0Z-QAmaEfCJ9Pti9ZFtOA" changeId="1745343151676">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']"/>
+        <target xmi:type="basictee:IntegrationSolution" href="My.basictee#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qYs48BR4EfCq74KxSTanhw" name="new IntegrationSolutionComp" repPath="#_qYp1oBR4EfCq74KxSTanhw" changeId="1744127121169">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']"/>
+        <target xmi:type="basictee:IntegrationSolution" href="My.basictee#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_-0Z-QAmaEfCJ9Pti9ZFtOA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-0dooAmaEfCJ9Pti9ZFtOA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_-0dooQmaEfCJ9Pti9ZFtOA" type="Sirius" element="_-0Z-QAmaEfCJ9Pti9ZFtOA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_-1SIAAmaEfCJ9Pti9ZFtOA" type="2001" element="_-0ePsAmaEfCJ9Pti9ZFtOA">
+          <children xmi:type="notation:Node" xmi:id="_-1ZcwAmaEfCJ9Pti9ZFtOA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_-1ZcwQmaEfCJ9Pti9ZFtOA" x="-5" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_-2DkEAmaEfCJ9Pti9ZFtOA" type="3005" element="_-0sSIAmaEfCJ9Pti9ZFtOA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_-2DkEQmaEfCJ9Pti9ZFtOA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-2DkEgmaEfCJ9Pti9ZFtOA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_-1SIAQmaEfCJ9Pti9ZFtOA" fontColor="9031421" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-1SIAgmaEfCJ9Pti9ZFtOA" x="252" y="18" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8gDEEAmcEfCQYqUwZBQsqQ" type="2001" element="_8fbZAAmcEfCQYqUwZBQsqQ">
+          <children xmi:type="notation:Node" xmi:id="_8gJxwAmcEfCQYqUwZBQsqQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8gJxwQmcEfCQYqUwZBQsqQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8gtLYAmcEfCQYqUwZBQsqQ" type="3005" element="_8fcAEAmcEfCQYqUwZBQsqQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8gtLYQmcEfCQYqUwZBQsqQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8gtLYgmcEfCQYqUwZBQsqQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_lcKOEA70EfCQo9e0QnMjlg" type="3001" element="_lZxBYA70EfCQo9e0QnMjlg">
+            <children xmi:type="notation:Node" xmi:id="_lcKOEw70EfCQo9e0QnMjlg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lcKOFA70EfCQo9e0QnMjlg" x="11" y="4"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_lcN4cA70EfCQo9e0QnMjlg" type="3005" element="_lZxBYQ70EfCQo9e0QnMjlg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_lcN4cQ70EfCQo9e0QnMjlg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcN4cg70EfCQo9e0QnMjlg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_lcKOEQ70EfCQo9e0QnMjlg" fontColor="9031421" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcKOEg70EfCQo9e0QnMjlg" x="30" y="32" width="0" height="0"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8gDEEQmcEfCQYqUwZBQsqQ" fontColor="9031421" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8gDEEgmcEfCQYqUwZBQsqQ" x="198" y="108" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_8geh4AmcEfCQYqUwZBQsqQ" type="2001" element="_8fdOMQmcEfCQYqUwZBQsqQ">
+          <children xmi:type="notation:Node" xmi:id="_8gfI8AmcEfCQYqUwZBQsqQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8gfI8QmcEfCQYqUwZBQsqQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8gtycAmcEfCQYqUwZBQsqQ" type="3001" element="_8ffDYAmcEfCQYqUwZBQsqQ">
+            <children xmi:type="notation:Node" xmi:id="_8gvAkAmcEfCQYqUwZBQsqQ" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_8gvAkQmcEfCQYqUwZBQsqQ" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_8g0gIAmcEfCQYqUwZBQsqQ" type="3005" element="_8ffDYQmcEfCQYqUwZBQsqQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_8g0gIQmcEfCQYqUwZBQsqQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8g0gIgmcEfCQYqUwZBQsqQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_8g1HMAmcEfCQYqUwZBQsqQ" type="3001" element="_8fgRgAmcEfCQYqUwZBQsqQ">
+              <children xmi:type="notation:Node" xmi:id="_8g1uQAmcEfCQYqUwZBQsqQ" visible="false" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8g1uQQmcEfCQYqUwZBQsqQ" x="-25" y="-9"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_8g6mwAmcEfCQYqUwZBQsqQ" type="3005" element="_8fgRgQmcEfCQYqUwZBQsqQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_8g6mwQmcEfCQYqUwZBQsqQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8g6mwgmcEfCQYqUwZBQsqQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_8g1HMQmcEfCQYqUwZBQsqQ" fontColor="9031421" fontName="Segoe UI" fontHeight="2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8g1HMgmcEfCQYqUwZBQsqQ" x="12" y="10" width="0" height="0"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8gtycQmcEfCQYqUwZBQsqQ" fontColor="9031421" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8gtycgmcEfCQYqUwZBQsqQ" x="32" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8gz5EAmcEfCQYqUwZBQsqQ" type="3005" element="_8fd1QAmcEfCQYqUwZBQsqQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_8gz5EQmcEfCQYqUwZBQsqQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8gz5EgmcEfCQYqUwZBQsqQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_8geh4QmcEfCQYqUwZBQsqQ" fontColor="9031421" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8geh4gmcEfCQYqUwZBQsqQ" x="324" y="126" width="40" height="40"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Z9bMwBSNEfCOTZlpn0n73Q" type="2001" element="_Z9VtMBSNEfCOTZlpn0n73Q">
+          <children xmi:type="notation:Node" xmi:id="_Z9bMwxSNEfCOTZlpn0n73Q" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Z9bMxBSNEfCOTZlpn0n73Q" x="41" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z9qdUBSNEfCOTZlpn0n73Q" type="3005" element="_Z9VtMRSNEfCOTZlpn0n73Q">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z9qdURSNEfCOTZlpn0n73Q" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z9qdUhSNEfCOTZlpn0n73Q"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Z9bMwRSNEfCOTZlpn0n73Q" fontColor="9031421" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z9bMwhSNEfCOTZlpn0n73Q" x="378" y="146" width="40" height="40"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_-0doogmaEfCJ9Pti9ZFtOA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_8iHgoAmcEfCQYqUwZBQsqQ" type="4001" element="_8fr3sAmcEfCQYqUwZBQsqQ" source="_-1SIAAmaEfCJ9Pti9ZFtOA" target="_8geh4AmcEfCQYqUwZBQsqQ">
+          <children xmi:type="notation:Node" xmi:id="_8iIHsAmcEfCQYqUwZBQsqQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iIHsQmcEfCQYqUwZBQsqQ" x="-5" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8iJV0AmcEfCQYqUwZBQsqQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iJV0QmcEfCQYqUwZBQsqQ" x="4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8iJV0gmcEfCQYqUwZBQsqQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iJV0wmcEfCQYqUwZBQsqQ" x="5" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8iHgoQmcEfCQYqUwZBQsqQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8iHgogmcEfCQYqUwZBQsqQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8iHgowmcEfCQYqUwZBQsqQ" points="[13, 20, -59, -88]$[58, 88, -14, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8iPccAmcEfCQYqUwZBQsqQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8iPccQmcEfCQYqUwZBQsqQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_8iPccgmcEfCQYqUwZBQsqQ" type="4001" element="_8fxXQAmcEfCQYqUwZBQsqQ" source="_-1SIAAmaEfCJ9Pti9ZFtOA" target="_8gDEEAmcEfCQYqUwZBQsqQ">
+          <children xmi:type="notation:Node" xmi:id="_8iPcdgmcEfCQYqUwZBQsqQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iPcdwmcEfCQYqUwZBQsqQ" x="-11" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8iPceAmcEfCQYqUwZBQsqQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iPceQmcEfCQYqUwZBQsqQ" x="11" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_8iPcegmcEfCQYqUwZBQsqQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8iPcewmcEfCQYqUwZBQsqQ" x="11" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8iPccwmcEfCQYqUwZBQsqQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_8iPcdAmcEfCQYqUwZBQsqQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8iPcdQmcEfCQYqUwZBQsqQ" points="[-12, 20, 42, -70]$[-42, 70, 12, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8iQDgAmcEfCQYqUwZBQsqQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8iQDgQmcEfCQYqUwZBQsqQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_stOW8BSREfCOTZlpn0n73Q" type="4001" element="_stNv4BSREfCOTZlpn0n73Q" source="_8g1HMAmcEfCQYqUwZBQsqQ" target="_lcKOEA70EfCQo9e0QnMjlg">
+          <children xmi:type="notation:Node" xmi:id="_stOW9BSREfCOTZlpn0n73Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_stOW9RSREfCOTZlpn0n73Q" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_stOW9hSREfCOTZlpn0n73Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_stOW9xSREfCOTZlpn0n73Q" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_stOW-BSREfCOTZlpn0n73Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_stOW-RSREfCOTZlpn0n73Q" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_stOW8RSREfCOTZlpn0n73Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_stOW8hSREfCOTZlpn0n73Q" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_stOW8xSREfCOTZlpn0n73Q" points="[0, 0, 140, -4]$[-140, 4, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_stOW-hSREfCOTZlpn0n73Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_stOW-xSREfCOTZlpn0n73Q" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-1BCQAmaEfCJ9Pti9ZFtOA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_-1BCQQmaEfCJ9Pti9ZFtOA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_-0ePsAmaEfCJ9Pti9ZFtOA" name="Morello" outgoingEdges="_8fr3sAmcEfCQYqUwZBQsqQ _8fxXQAmcEfCQYqUwZBQsqQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="basictee:Tee" href="My.basictee#//@tee"/>
+      <semanticElements xmi:type="basictee:Tee" href="My.basictee#//@tee"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_-0sSIAmaEfCJ9Pti9ZFtOA" showIcon="false" labelColor="253,206,137" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Tee.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='TeeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='TeeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8fbZAAmcEfCQYqUwZBQsqQ" name="Launcher" incomingEdges="_8fxXQAmcEfCQYqUwZBQsqQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="basictee:Launcher" href="My.basictee#//@tee/@status"/>
+      <semanticElements xmi:type="basictee:Launcher" href="My.basictee#//@tee/@status"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lZxBYA70EfCQo9e0QnMjlg" name="IN" incomingEdges="_stNv4BSREfCOTZlpn0n73Q" width="0" height="0" resizeKind="NSEW">
+        <target xmi:type="basictee:Port" href="My.basictee#//@tee/@status/@ports.0"/>
+        <semanticElements xmi:type="basictee:Port" href="My.basictee#//@tee/@status/@ports.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_lZxBYQ70EfCQo9e0QnMjlg" labelSize="2" showIcon="false" labelColor="253,206,137" hideLabelByDefault="true" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']/@borderedNodeMappings[name='Port']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']/@borderedNodeMappings[name='Port']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_8fcAEAmcEfCQYqUwZBQsqQ" showIcon="false" labelColor="253,206,137" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Launcher.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='LauncherNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8fdOMQmcEfCQYqUwZBQsqQ" name="MemoryCompartment" incomingEdges="_8fr3sAmcEfCQYqUwZBQsqQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="basictee:MemoryCompartment" href="My.basictee#//@tee/@memorycompartment"/>
+      <semanticElements xmi:type="basictee:MemoryCompartment" href="My.basictee#//@tee/@memorycompartment"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_8ffDYAmcEfCQYqUwZBQsqQ" name="IntegrationProcess" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="basictee:IntegrationProcess" href="My.basictee#//@tee/@memorycompartment/@integrationprocess"/>
+        <semanticElements xmi:type="basictee:IntegrationProcess" href="My.basictee#//@tee/@memorycompartment/@integrationprocess"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_8fgRgAmcEfCQYqUwZBQsqQ" name="IN" outgoingEdges="_stNv4BSREfCOTZlpn0n73Q" width="0" height="0" resizeKind="NSEW">
+          <target xmi:type="basictee:Port" href="My.basictee#//@tee/@memorycompartment/@integrationprocess/@ports.0"/>
+          <semanticElements xmi:type="basictee:Port" href="My.basictee#//@tee/@memorycompartment/@integrationprocess/@ports.0"/>
+          <graphicalFilters xmi:type="diagram:HideLabelFilter" uid="_8fjU0AmcEfCQYqUwZBQsqQ"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_8fgRgQmcEfCQYqUwZBQsqQ" labelSize="2" showIcon="false" labelColor="253,206,137" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@borderedNodeMappings[name='IntegrationProcess']/@borderedNodeMappings[name='Port']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@borderedNodeMappings[name='IntegrationProcess']/@borderedNodeMappings[name='Port']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_8ffDYQmcEfCQYqUwZBQsqQ" showIcon="false" labelColor="253,206,137" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/IntegrationProcess.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@borderedNodeMappings[name='IntegrationProcess']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@borderedNodeMappings[name='IntegrationProcess']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_8fd1QAmcEfCQYqUwZBQsqQ" showIcon="false" labelColor="253,206,137" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/MemoryCompartment.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='MemoryCompartmentNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8fr3sAmcEfCQYqUwZBQsqQ" sourceNode="_-0ePsAmaEfCJ9Pti9ZFtOA" targetNode="_8fdOMQmcEfCQYqUwZBQsqQ">
+      <target xmi:type="basictee:Tee" href="My.basictee#//@tee"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8fviEAmcEfCQYqUwZBQsqQ" size="2" strokeColor="194,239,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@edgeMappings[name='TeeMemory']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_8fwJIAmcEfCQYqUwZBQsqQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@edgeMappings[name='TeeMemory']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8fxXQAmcEfCQYqUwZBQsqQ" sourceNode="_-0ePsAmaEfCJ9Pti9ZFtOA" targetNode="_8fbZAAmcEfCQYqUwZBQsqQ">
+      <target xmi:type="basictee:Tee" href="My.basictee#//@tee"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8fxXQQmcEfCQYqUwZBQsqQ" size="2" strokeColor="194,239,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@edgeMappings[name='TeeLauncher']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_8fxXQgmcEfCQYqUwZBQsqQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@edgeMappings[name='TeeLauncher']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Z9VtMBSNEfCOTZlpn0n73Q" name="Service 1" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="basictee:Service" href="My.basictee#//@services.0"/>
+      <semanticElements xmi:type="basictee:Service" href="My.basictee#//@services.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Z9VtMRSNEfCOTZlpn0n73Q" labelColor="253,206,137" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Service.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='ServiceNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@nodeMappings[name='ServiceNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_stNv4BSREfCOTZlpn0n73Q" sourceNode="_8fgRgAmcEfCQYqUwZBQsqQ" targetNode="_lZxBYA70EfCQo9e0QnMjlg">
+      <target xmi:type="basictee:Port" href="My.basictee#//@tee/@memorycompartment/@integrationprocess/@ports.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_stNv4RSREfCOTZlpn0n73Q" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@edgeMappings[name='Test']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_stNv4hSREfCOTZlpn0n73Q" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer/@edgeMappings[name='Test']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_-0Z-QQmaEfCJ9Pti9ZFtOA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolution']/@defaultLayer"/>
+    <target xmi:type="basictee:IntegrationSolution" href="My.basictee#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_qYp1oBR4EfCq74KxSTanhw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qZCQIBR4EfCq74KxSTanhw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_qZCQIRR4EfCq74KxSTanhw" type="Sirius" element="_qYp1oBR4EfCq74KxSTanhw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_qZZcgBR4EfCq74KxSTanhw" type="2002" element="_qZMoMBR4EfCq74KxSTanhw">
+          <children xmi:type="notation:Node" xmi:id="_qZe8EBR4EfCq74KxSTanhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_qZj0kBR4EfCq74KxSTanhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_IpAZQBR6EfCq74KxSTanhw" type="3008" element="_zIB5MRR7EfCq74KxSTanhw">
+              <children xmi:type="notation:Node" xmi:id="_IpBAUBR6EfCq74KxSTanhw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_IpCOcBR6EfCq74KxSTanhw" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_5BmUoBR7EfCq74KxSTanhw" type="3009" element="_7b3XohR7EfCq74KxSTanhw">
+                  <children xmi:type="notation:Node" xmi:id="_5BniwBR7EfCq74KxSTanhw" type="5004"/>
+                  <children xmi:type="notation:Node" xmi:id="_5BniwRR7EfCq74KxSTanhw" type="7003">
+                    <children xmi:type="notation:Node" xmi:id="_GQSxQBSBEfC1Jq7P8xXZbA" type="3010" element="_GOQJ4BSBEfC1Jq7P8xXZbA">
+                      <styles xmi:type="notation:FontStyle" xmi:id="_GQSxQRSBEfC1Jq7P8xXZbA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_GQSxQhSBEfC1Jq7P8xXZbA"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_5BniwhR7EfCq74KxSTanhw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_5BniwxR7EfCq74KxSTanhw"/>
+                    <styles xmi:type="notation:DrawerStyle" xmi:id="_5BnixBR7EfCq74KxSTanhw"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_5BmUoRR7EfCq74KxSTanhw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5BmUohR7EfCq74KxSTanhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_IpCOcRR6EfCq74KxSTanhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_IpCOchR6EfCq74KxSTanhw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_IpEqsBR6EfCq74KxSTanhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_IpAZQRR6EfCq74KxSTanhw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpAZQhR6EfCq74KxSTanhw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_kZPmABR6EfCq74KxSTanhw" type="3009" element="_7tM0sRR6EfCq74KxSTanhw">
+              <children xmi:type="notation:Node" xmi:id="_kZQNEBR6EfCq74KxSTanhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_kZQ0IBR6EfCq74KxSTanhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_XE-PYBSBEfC1Jq7P8xXZbA" type="3010" element="_XCsXcBSBEfC1Jq7P8xXZbA">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_XE-PYRSBEfC1Jq7P8xXZbA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_XE-PYhSBEfC1Jq7P8xXZbA"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_kZQ0IRR6EfCq74KxSTanhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_kZQ0IhR6EfCq74KxSTanhw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_kZQ0IxR6EfCq74KxSTanhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_kZPmARR6EfCq74KxSTanhw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kZPmAhR6EfCq74KxSTanhw" x="275"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_qZj0kRR4EfCq74KxSTanhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_qZj0khR4EfCq74KxSTanhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qZZcgRR4EfCq74KxSTanhw" fontName="Segoe UI" fontHeight="14" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qZZcghR4EfCq74KxSTanhw" x="306" y="36"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GKICYBSCEfC1Jq7P8xXZbA" type="2003" element="_WZ-VIRSCEfC1Jq7P8xXZbA">
+          <children xmi:type="notation:Node" xmi:id="_GKPXIBSCEfC1Jq7P8xXZbA" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_GKQlQBSCEfC1Jq7P8xXZbA" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_lS1KUBSDEfCs39-hByD2vQ" type="3010" element="_lSoWAxSDEfCs39-hByD2vQ">
+              <styles xmi:type="notation:FontStyle" xmi:id="_lS1KURSDEfCs39-hByD2vQ" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lS1KUhSDEfCs39-hByD2vQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_GKQlQRSCEfC1Jq7P8xXZbA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_GKQlQhSCEfC1Jq7P8xXZbA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GKICYRSCEfC1Jq7P8xXZbA" fontName="Segoe UI" fontHeight="14" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GKICYhSCEfC1Jq7P8xXZbA" x="126" y="36"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_qZCQIhR4EfCq74KxSTanhw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qZVyIBR4EfCq74KxSTanhw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_qZVyIRR4EfCq74KxSTanhw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_qZMoMBR4EfCq74KxSTanhw" name="Morello" childrenPresentation="HorizontalStack">
+      <target xmi:type="basictee:Tee" href="My.basictee#//@tee"/>
+      <semanticElements xmi:type="basictee:Tee" href="My.basictee#//@tee"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qZRgsBR4EfCq74KxSTanhw" labelSize="14" borderSize="1" borderSizeComputationExpression="1">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zIB5MRR7EfCq74KxSTanhw" name="MemoryCompartment" childrenPresentation="HorizontalStack">
+        <target xmi:type="basictee:MemoryCompartment" href="My.basictee#//@tee/@memorycompartment"/>
+        <semanticElements xmi:type="basictee:MemoryCompartment" href="My.basictee#//@tee/@memorycompartment"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_zICgQBR7EfCq74KxSTanhw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" foregroundColor="194,239,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_7b3XohR7EfCq74KxSTanhw" name="IntegrationProcess">
+          <target xmi:type="basictee:IntegrationProcess" href="My.basictee#//@tee/@memorycompartment/@integrationprocess"/>
+          <semanticElements xmi:type="basictee:IntegrationProcess" href="My.basictee#//@tee/@memorycompartment/@integrationprocess"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7b3-sBR7EfCq74KxSTanhw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" foregroundColor="253,206,137">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']/@subContainerMappings[name='IntegrationProcessContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']/@subContainerMappings[name='IntegrationProcessContainer']"/>
+          <ownedElements xmi:type="diagram:DNodeListElement" uid="_GOQJ4BSBEfC1Jq7P8xXZbA" name="1">
+            <target xmi:type="basictee:Port" href="My.basictee#//@tee/@memorycompartment/@integrationprocess/@ports.0"/>
+            <semanticElements xmi:type="basictee:Port" href="My.basictee#//@tee/@memorycompartment/@integrationprocess/@ports.0"/>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_GOSmIBSBEfC1Jq7P8xXZbA" labelSize="12" labelPosition="node" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']/@subContainerMappings[name='IntegrationProcessContainer']/@subNodeMappings[name='PortNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='MemoryCompartmentContainer']/@subContainerMappings[name='IntegrationProcessContainer']/@subNodeMappings[name='PortNode']"/>
+          </ownedElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_7tM0sRR6EfCq74KxSTanhw" name="Launcher">
+        <target xmi:type="basictee:Launcher" href="My.basictee#//@tee/@status"/>
+        <semanticElements xmi:type="basictee:Launcher" href="My.basictee#//@tee/@status"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_7tM0shR6EfCq74KxSTanhw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" foregroundColor="204,242,166">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='LauncherContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='LauncherContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_XCsXcBSBEfC1Jq7P8xXZbA" name="2">
+          <target xmi:type="basictee:Port" href="My.basictee#//@tee/@status/@ports.0"/>
+          <semanticElements xmi:type="basictee:Port" href="My.basictee#//@tee/@status/@ports.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_XCs-gBSBEfC1Jq7P8xXZbA" labelSize="12" labelPosition="node" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='LauncherContainer']/@subNodeMappings[name='PortNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='MorelloContainer']/@subContainerMappings[name='LauncherContainer']/@subNodeMappings[name='PortNode']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_WZ-VIRSCEfC1Jq7P8xXZbA" name="Service 1">
+      <target xmi:type="basictee:Service" href="My.basictee#//@services.0"/>
+      <semanticElements xmi:type="basictee:Service" href="My.basictee#//@services.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_WZ-VIhSCEfC1Jq7P8xXZbA" labelSize="14" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" foregroundColor="114,73,110">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='ServiceContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='ServiceContainer']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSoWAxSDEfCs39-hByD2vQ" name="3">
+        <target xmi:type="basictee:Port" href="My.basictee#//@services.0/@ports.0"/>
+        <semanticElements xmi:type="basictee:Port" href="My.basictee#//@services.0/@ports.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_lSpkIBSDEfCs39-hByD2vQ" labelSize="12" labelPosition="node" workspacePath="/org.eclipse.sirius.sample.basictee.design/icons/full/obj16/Port.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='ServiceContainer']/@subNodeMappings[name='PortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer/@containerMappings[name='ServiceContainer']/@subNodeMappings[name='PortNode']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_qYqcsBR4EfCq74KxSTanhw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.basictee.design/description/basictee.odesign#//@ownedViewpoints[name='integrationSolution']/@ownedRepresentations[name='IntegrationSolutionComp']/@defaultLayer"/>
+    <target xmi:type="basictee:IntegrationSolution" href="My.basictee#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
